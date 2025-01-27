@@ -28,24 +28,24 @@ The API ensures basic validation such as non-empty titles and a minimum of 10 ch
 ### 1. GET (To get  notes).
 
   ```
-  http:localhost:5000/api-notes
+  http://localhost:5000/api/notes
   ```
 
 ### 2. POST (To save notes).
 
   ```
-  http:localhost:5000/api/save-note
+  http://localhost:5000/api/save-note
   ```
 
 
 ### 3. PUT (To update a note).
 
   ```
-  http:localhost:5000/api/update-note/:id
+  http://localhost:5000/api/update-note/:id
   ```
 
 ### 4. DELETE (To delete a note).
 
   ```
-  http:localhost:5000/api/delete-note/:id
+  http://localhost:5000/api/delete-note/:id
   ```
