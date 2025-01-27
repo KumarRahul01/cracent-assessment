@@ -24,13 +24,8 @@ The goal of this project is to demonstrate the basic functionality of a dynamic 
 - **Persistence**: Tasks are saved in **LocalStorage** so that the tasks persist across page reloads.
 
 ## Installation
-   
-1. Navigate to the project directory:
-    ```bash
-    cd Task1_ToDoApplication
-    ```
 
-2. Open `index.html` in your browser
+1. Open `index.html` in your browser to run the ToDo App.
 
 ## Usage
 
@@ -57,4 +52,3 @@ The goal of this project is to demonstrate the basic functionality of a dynamic 
 - **HTML**: For the basic structure and layout.
 - **CSS**: For styling the app and making it responsive.
 - **JavaScript**: For the dynamic behavior (adding tasks, marking completed, deleting tasks, filtering tasks).
-  - If using **React**, the code is modularized into components for better maintainability.
