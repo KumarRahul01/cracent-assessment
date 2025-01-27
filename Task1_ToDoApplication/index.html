@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do Application</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="todo-box">
+      <div class="todo-header">
+        <h1 id="todo-title">To Do List📝</h1>
+        <button id="filter-btn"><i class="fas fa-filter"></i>
+          <!-- Options Box -->
+          <select name="filter-task" id="filter-task">
+            <option value="all" selected>All</option>
+            <option value="completed">Completed</option>
+            <option value="pending">Pending</option>
+          </select>
+        </button>
+
+
+      </div>
+
+      <div class="input-container">
+        <input type="text" id="input-task" placeholder="Add your task">
+        <button id="add-task-btn">Add</button>
+      </div>
+
+      <!-- Task List -->
+      <div class="task-container">
+        <ul class="task-list-container">
+          <!-- <li class="checked">Typescript Completed</li>
+          <li class="">my task</li> -->
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
